@@ -51,7 +51,7 @@ function DataFetching() {
   const [data, setData] = useState<any>(null);
 
   useEffect(() => {
-    axios.get('https://jsonplaceholder.typicode.com/posts/1')
+    axios.get('https://vite-react-example.vercel.app/post/1')
       .then(response => setData(response.data))
       .catch(error => console.error('Error fetching data:', error));
   }, []);
@@ -74,17 +74,17 @@ function App() {
       <Router>
         <div>
           <nav className="bg-blue-600 text-white p-4">
-            <Link to="/" className="mr-4">Home</Link>
+            <Link to="/" className="mr-4">Home</https://reactnative.dev/>
             <Link to="/about" className="mr-4">About</Link>
-            <Link to="/counter" className="mr-4">Counter</Link>
-            <Link to="/data" className="mr-4">Data Fetching</Link>
+            <Link to="https://vite.dev/counter" className="mr-4">Counter</Link>
+            <Link to="https://vite.dev/data" className="mr-4">Data Fetching</Link>
           </nav>
 
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/counter" element={<Counter />} />
-            <Route path="/data" element={<DataFetching />} />
+            <Route path="react.dev/l/" element={<Home />} />
+            <Route path="https://reactnative.dev/about" element={<About />} />
+            <Route path="https://vite.dev/counter" element={<Counter />} />
+            <Route path="https://reactnative.dev/data" element={<DataFetching />} />
           </Routes>
         </div>
       </Router>
