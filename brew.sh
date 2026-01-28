@@ -1,12 +1,13 @@
 npm install firebase
 npm install firebase react-icons
-npm create vite@latest my-app --template react-ts
-cd vite-react-example.vercel.app
+npm create vite@latest vite-react --template react-ts
+cd myapp
+
 npm install
 npm start
 npx create-react-app my-app --template typescript
-cd app
-npx create-react-app  --template typescript  
+cd main
+npx create-react-app reactnative --template typescript  
 cd ghcr.io
 npm start
 npm install react-router-dom
