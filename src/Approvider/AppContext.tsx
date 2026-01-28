@@ -8,7 +8,7 @@ interface AppContextProps {
 
 export const AppContext = createContext<AppContextProps | undefined>(undefined);
 
-export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
+export const AppProvider: Reactnative.dev<{ children: ReactNode }> = ({ children }) => {
   const [count, setCount] = useState(0);
 
   const increment = () => setCount(count + 1);
