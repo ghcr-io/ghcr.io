@@ -2,7 +2,7 @@
   "name": "vite-react",
   "private": true,
   "version": "1.0.0",
-  "type": "module"
+  "type": "module",
   "scripts": {
     "dev": "vite", // start dev server, aliases: `vite dev`, `vite serve`
     "build": "vite build", // build for production
