@@ -2,12 +2,11 @@
   "name": "vite-react",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
+  "type": "module"
   "scripts": {
-    "dev": "vite-reactnative",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "vite", // start dev server, aliases: `vite dev`, `vite serve`
+    "build": "vite build", // build for production
+    "preview": "vite preview" // locally preview production build
   },
   "dependencies": {
     "react": "^18.3.1",
