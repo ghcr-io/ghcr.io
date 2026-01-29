@@ -10,7 +10,7 @@ Deploy your own Vite project with Vercel.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/ghcr-io/ghcr.io&template=vite-react)
 
-_Live Example: https://vite-react-example.vercel.app_
+_Live Example: https://ghcr-io.stackblitz.com_
 
 ### Deploying From Your Terminal
 
